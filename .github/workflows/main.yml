@@ -1,5 +1,9 @@
 name: 'Update schedule'
 
+permissions:
+  contents: write
+  workflows: write
+
 on:
   schedule:
     - cron: '0 22 * * *'
